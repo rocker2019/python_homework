@@ -1,7 +1,7 @@
-import Sixth.rest.restaurant as rest
+import restaurant
 
 
-class Huoguo(rest.Restaurant):
+class Huoguo(restaurant.Restaurant):
     def __init__(self, name, category, customers, huo_guo_type, employee):
         super().__init__(name, category, customers)
         self.huo_guo_type = huo_guo_type

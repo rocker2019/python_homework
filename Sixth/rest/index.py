@@ -1,4 +1,4 @@
-import Sixth.rest.huo_guo as huo_guo
+import huo_guo
 
 name = ['精品火锅', '火锅', 20, '四川', 6]
 
